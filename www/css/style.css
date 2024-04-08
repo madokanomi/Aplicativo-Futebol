@@ -36,6 +36,7 @@ nav{
 }
 
 label{
+    margin-left: 20px;
     font-family:bebas neue;
     font-size: 25px;
     color: white;
@@ -47,9 +48,17 @@ body {
     background-color: #010326;
 }
 select {
-    width: 120px;
+    margin-left: 112px;
+    height: 23px;
+    width: 150px;
     border-radius: 5px;
     border-color: black
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;
+    background-position: 218px center;
+    border: 1px solid #ddd;
 }
 
 
@@ -88,7 +97,7 @@ select {
 
 .button-35{
   background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
-  border-radius: 15px;
+  border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
   color: #FFFFFF;
@@ -105,6 +114,7 @@ select {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-top: 5px;
   
 }
 
@@ -119,4 +129,34 @@ select {
   }
 }
 
+section {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 50px;
+ flex-wrap: wrap;
+}
+.content {
+ position: relative;
+ width: 600px;
+ height: 400px;
+ border-radius: 20px;
+ background: rgba(31,32,39,1);
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ z-index: 1;
+}
+.content h1{
+ font-size: 3rem;
+ color: #00c2cb;
+ z-index: 3;
+}
+.content h3{
+ font-size: 20px;
+ color: #e0ffff;
+ z-index: 3;
+}
 
