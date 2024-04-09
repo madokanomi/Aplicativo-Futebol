@@ -1,18 +1,50 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    <link rel="stylesheet" href="components/loader.css">
-    <script src="components/loader.js"></script>
-    <script>
-        //
-        // TODO: Write JavaScript code here
-        //
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body>
-    <!-- TODO: Please edit here -->
+<link rel="stylesheet" href="campo.css">
+ 
+<script>
+
+    var goleiro = document.getElementById("goleiro").selectedIndex;
+    var le = document.getElementById("le").selectedIndex;
+    var ld = document.getElementById("ld").selectedIndex;
+    var zag1 = document.getElementById("zag1").selectedIndex;
+    var zag2 = document.getElementById("zag2").selectedIndex;
+    var mei1 = document.getElementById("mei1").selectedIndex;
+    var mei2 = document.getElementById("mei2").selectedIndex;
+    var mei3 = document.getElementById("mei3").selectedIndex;
+    var at = document.getElementById("at").selectedIndex;
+    var at2 = document.getElementById("at2").selectedIndex;
+    var at3 = document.getElementById("at3").selectedIndex;
+
+</script>
+
+<body class="Fundao">
+ 
+    <div class="campo">
+        <div class="ataque">
+            <div class="joadores" id="pe"></div>
+            <div class="joadores" id="ata"></div>
+            <div class="joadores" id ="pd"></div>
+        </div>
+        <div class="meio">
+            <div class="joadores" id="mc1"></div>
+            <div class="joadores" id="vol"></div>
+            <div class="joadores" id="mc2"></div>
+        </div>
+        <div class="defesa">
+            <div class="joadores" id="le"></div>
+            <div class="joadores" id="zag1"></div>
+            <div class="joadores" id="zag2"></div>
+            <div class="joadores" id="ld"></div>
+            <div class="joadores" id="gol"></div>
+        </div>
+    </div>
+ 
 </body>
 </html>
+ 
