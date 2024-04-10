@@ -9,17 +9,38 @@
  
 <script>
 
-    var goleiro = document.getElementById("goleiro").selectedIndex;
-    var le = document.getElementById("le").selectedIndex;
-    var ld = document.getElementById("ld").selectedIndex;
-    var zag1 = document.getElementById("zag1").selectedIndex;
-    var zag2 = document.getElementById("zag2").selectedIndex;
-    var mei1 = document.getElementById("mei1").selectedIndex;
-    var mei2 = document.getElementById("mei2").selectedIndex;
-    var mei3 = document.getElementById("mei3").selectedIndex;
-    var at = document.getElementById("at").selectedIndex;
-    var at2 = document.getElementById("at2").selectedIndex;
-    var at3 = document.getElementById("at3").selectedIndex;
+    var select = document.getElementById("IDgoleiro")
+    var golV = select.options[select.selectedIndex].value;
+
+    var IDle = document.getElementById("IDle");
+    var le = select.options[select.selectedIndex].text;
+
+    var IDld = document.getElementById("IDld");
+    var ld = select.options[select.selectedIndex].text;
+
+    var IDzag1 = document.getElementById("IDzag1");
+    var zag1 = select.options[select.selectedIndex].text;
+
+    var IDzag2 = document.getElementById("IDzag2");
+    var zag2 = select.options[select.selectedIndex];
+
+    var IDmei1 = document.getElementById("IDmei1");
+    var mei1 = select.options[select.selectedIndex].text;
+
+    var IDmei2 = document.getElementById("IDmei2");
+    var mei2 = select.options[select.selectedIndex].text;
+
+    var IDmei3 = document.getElementById("IDmei3");
+    var mei3 = select.options[select.selectedIndex].text;
+
+    var IDat = document.getElementById("IDat");
+    var at = select.options[select.selectedIndex].text;
+
+    var IDat2 = document.getElementById("IDat2");
+    var at2 = select.options[select.selectedIndex].text;
+
+    var IDat3 = document.getElementById("IDat3");
+    var at3 = select.options[select.selectedIndex].text;
 
 </script>
 
